@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "Create file and test file with ramda and test libs imported",
+  "repository": "Waxo/generator-ramda-chai",
   "keywords": [
     "yeoman-generator"
   ],
