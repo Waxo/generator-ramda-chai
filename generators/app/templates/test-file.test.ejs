@@ -1,0 +1,9 @@
+require('chai').should();
+
+const {<%= filenameAsFunction %>} = require('<%= requirePath %>/<%= filepath %>');
+
+describe.skip('<%= filepath %>', () => {
+  describe('#<%= filenameAsFunction %>', () => {
+    it('should test <%= filenameAsFunction %>', () => {});
+  });
+});
