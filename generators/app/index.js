@@ -44,7 +44,6 @@ module.exports = class extends Generator {
       }
     ]);
 
-    this.log(answers);
     this._fileCreator(answers);
     this.config.save();
   }
