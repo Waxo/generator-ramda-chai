@@ -1,6 +1,6 @@
 {
   "name": "generator-ramda-chai",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "Create file and test file with ramda and test libs imported",
   "repository": "Waxo/generator-ramda-chai",
