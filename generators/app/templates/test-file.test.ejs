@@ -5,8 +5,8 @@ const {<%= filenameAsFunction %>} = require('<%= requirePath %>/<%= filepath %>'
 describe.skip('<%= filepath %>', () => {
   describe('#<%= filenameAsFunction %>', () => {
     it('should test <%= filenameAsFunction %>', () => {
-      <%= filenameAsFunction %>.should.be.eql(true);
-      <%= filenameAsFunction %>.should.be.eql(false);
+      <%= filenameAsFunction %>().should.be.eql(true);
+      <%= filenameAsFunction %>().should.be.eql(false);
     });
   });
 });
